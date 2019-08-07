@@ -14,3 +14,10 @@
 - Can we get some ideas from Disney World? A lot of people are walking around a lot there
 
 
+
+
+### More ideas
+- [Where Manhattan’s grid plan came from](https://www.youtube.com/watch?v=QaIOfgz8FVY)
+
+
+
