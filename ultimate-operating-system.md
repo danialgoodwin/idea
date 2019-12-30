@@ -5,6 +5,20 @@ Features:
 - Package/App manager. Reason: Single-source of truth, and allow users to easily install AND uninstall (all information related to an app). Reason: For pro users and for business that want to easily automate the system setup process.
 - All apps run in a 'virtual OS', and it can easily be seen what files each app is trying to read and write. Reason: Security and privacy
 - Themes (colors, wallpaper) should be easy to make and shared by users.
+- File extensions aren't 100% required, but are useful. (Note: )
+  - .app
+  - .audio
+  - .config (includes configuration for apps, playlist, themes)
+  - .image
+  - .text
+  - .video
+  - .zip
+  - Maybe: '.m' for 'media'. And:
+    - .ma (media-audio)
+    - .mi (media-image)
+    - .mg (media-gif)
+    - .mv (media-video)
+
 
 # Thoughts
 - Need a 'truth line' where apps can't display information above/below that line. Reason: This is to help people not get tricked too easily.
