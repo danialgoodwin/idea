@@ -34,3 +34,19 @@ Features:
 - [Xomb](https://github.com/xomboverlord/xomb-bare-bones): OS in D. http://www.xomb.org/
 - [ROS](http://ros.rubyforge.org/): OS in Ruby.
 - [Redox](http://www.redox-os.org/): [Open source](https://github.com/redox-os/redox/). OS in Rust.
+
+
+# Ultimate Package Manager
+
+Features:
+- Ability to provide a list of packages to install (similar to Python 'requirements.txt' and Node JS 'dependencies.json')
+
+Usage:
+
+    add [package] 'Add/install an app or lib'
+    remove [package] 'Remove/uninstall an app or lib'
+    update [package] ''
+    set-version [package] ''
+    about [package] 'Show information about the app or lib, including usage'
+    help 'Show help information about the package manager commands'
+    find [text] 'Find/search for an app or lib without knowing the actual name'
