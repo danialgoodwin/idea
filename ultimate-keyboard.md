@@ -23,3 +23,49 @@ In order to simplify the keyboard layout, the following keys will be removed:
 - 'Page Down'. Reason: Use 'alt+down' instead
 - 'Home'. Reason: Use 'alt+left' instead
 - 'End'. Reason: Use 'alt+right' instead
+
+
+Try to use minimum distinct keys for all shortcuts?
+
+
+# Consistent Philosophy for modifier keys
+
+
+# Shortcuts
+
+## Shortcuts (with arrow keys)
+_Thinking about 60% keyboard with arrow keys._
+
+    window-snap-right os + <right>
+    window-snap-left os + <left>
+    tab-snap-right app + <right>
+    tab-snap-left app + <left>
+
+
+## Shortcuts (without arrow keys)
+_Thinking about a 40% keyboard._
+
+Layout:
+
+    // In each 'group', the keys are in the order of <regular>, <shift>, <mod>
+    <tab> [{     qQ! wW@ eE# rR$ tT%      YU I  O  P  ]}  \|
+          <esc>  aA  S   D   F   G        HJ K  L  ;: '"
+                 zZ  X   C   V   B        NM ,< .> /? 
+                           <shift>
+                              <space>
+                                 <enter>
+
+(living document)
+
+
+
+    <right> mod + ;
+    <left> mod + l
+    window-snap-right os + ]  // Unsure if we want to use extra symbol keys
+    window-snap-left os + [
+    window-snap-right os + <right>
+    window-snap-left os + <left>
+    
+
+
+
