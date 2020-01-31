@@ -47,13 +47,12 @@ _Thinking about a 40% keyboard._
 
 Layout:
 
-    // In each 'group', the keys are in the order of <regular>, <shift>, <mod>
-    <tab> [{     qQ! wW@ eE# rR$ tT%      YU I  O  P  ]}  \|
-          <esc>  aA  S   D   F   G        HJ K  L  ;: '"
-                 zZ  X   C   V   B        NM ,< .> /? 
+    // In each 'group', the keys are in the order of <regular>, <shift>, <mod>, <user>
                            <shift>
                               <space>
                                  <enter>
+
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
 (living document)
 
