@@ -29,37 +29,59 @@ Try to use minimum distinct keys for all shortcuts?
 
 
 # Consistent Philosophy for modifier keys
+- The `operating system` has many `app`s.
+- Each `app` usually has just one `window`, but can have multiple `window`s.
+- Each `window` has zero or more `tab`s.
 
+## Changes from 'standard' layouts
+- Rather than the `[`/`{` key, have a `(`/`{`/`[`. Reason: For programming, the parenthesis is most common, then curly brace, then square bracket.
 
 # Shortcuts
 
 ## Shortcuts (with arrow keys)
 _Thinking about 60% keyboard with arrow keys._
 
-    window-snap-right os + <right>
     window-snap-left os + <left>
+    window-snap-right os + <right>
+    window-screen-left os + shift + <left>
+    window-screen-right os + shift + <right>
+    window-desktop-left os + mod + <left>
+    window-desktop-right os + mod + <right>
     tab-snap-right app + <right>
     tab-snap-left app + <left>
+    
+    os-seach os + f
+    os-launch-app os + space
+    os-volume-up os + f1
+    os-volumn-down os + f2
+    screen-brightness-up os + f3
+    screen-brightness-down os + f4
+    os-screenshot os + f5
+    
+    app-seach app + f
+    app-launch-window app + space
+    app-volume-up app + f1
+    app-volume-down app + f2
+    app-screenshot app + f5 
+    
+    mouse-up nav + 8
+    mouse-down nav + k
+    mouse-left nav + u
+    mouse-right nav + o
+    back nav + left
+    forward nav + right
+    up nav + up
+    page-up nav + e
+    page-down nav + d
+    end nav + f
+    home nav + s
 
 
 ## Shortcuts (without arrow keys)
 _Thinking about a 40% keyboard._
 
-Layout:
-
-    // In each 'group', the keys are in the order of <regular>, <shift>, <mod>, <user>
-                           <shift>
-                              <space>
-                                 <enter>
-
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-
 (living document)
 
-
-
-    <right> mod + ;
-    <left> mod + l
     window-snap-right os + ]  // Unsure if we want to use extra symbol keys
     window-snap-left os + [
     window-snap-right os + <right>
