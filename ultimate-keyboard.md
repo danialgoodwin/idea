@@ -50,7 +50,7 @@ _Thinking about 60% keyboard with arrow keys._
     tab-snap-right app + <right>
     tab-snap-left app + <left>
     
-    os-seach os + f
+    os-search os + f
     os-launch-app os + space
     os-volume-up os + f1
     os-volumn-down os + f2
@@ -58,7 +58,7 @@ _Thinking about 60% keyboard with arrow keys._
     screen-brightness-down os + f4
     os-screenshot os + f5
     
-    app-seach app + f
+    app-search app + f
     app-launch-window app + space
     app-volume-up app + f1
     app-volume-down app + f2
