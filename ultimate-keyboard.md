@@ -47,6 +47,7 @@ More:
 - Use **arrow keys** when something needs to move, NOT when navigating forward and backwards, NOR volume, NOR brightness
     - `<arrow>`: Move cursor, or page, depending on focus
     - `alt` + `<arrow>`: Move cursor either page-up, page-down, home, end
+    - `alt` + `shift` + `<arrow>: Auto-scroll in <arrow direction>
     - `app` + `<arrow>`: Snap tab/page in <arrow> direction
     - `os` + `<arrow>`: Snap app/window in <arrow> direction
     - `os` + `alt` + `<arrow>`: Move app/window to another desktop
