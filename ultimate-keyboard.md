@@ -27,6 +27,10 @@ In order to simplify the keyboard layout, the following keys will be removed:
 
 Try to use minimum distinct keys for all shortcuts?
 
+## Changes from 'standard' layouts
+- Rather than the `[`+`{` key, have a `(`/`{`/`[`. Reason: For programming, the parenthesis is most common, then curly brace, then square bracket.
+
+
 
 # Consistent (Unified) Philosophy
 For modifier keys:
@@ -58,8 +62,143 @@ More:
     - `os` + `alt` + `tab`: Change focus between desktops
     - Combine `shift` key to send focus the opposite way
 
-## Changes from 'standard' layouts
-- Rather than the `[`+`{` key, have a `(`/`{`/`[`. Reason: For programming, the parenthesis is most common, then curly brace, then square bracket.
+## Common tasks
+_definitely up for changes_
+
+| Hotkey | Action |
+| ------ | ------ |
+| `f1` | Show help |
+| `f3` | Find next |
+| `shift + f3` | Find previous |
+| `app + a` | Select all items in component |
+| `app + shift + a` | Find action... |
+| `app + b` | Toggle bookmark current page |
+| `app + shift + b` | Bookmark current page... |
+| `app + alt + b` | Toggle show quick bookmarks |
+| `app + alt + shift + b` | Show bookmarks as full page |
+| `app + c` | Copy selection to clipboard |
+| `app + shift + c` | Copy selection to clipboard... |
+| `app + f` | Find in page... |
+| `app + shift + f` | Find in app... |
+| `app + g` | Go to... |
+| `app + o` | Open file... |
+| `app + p` | Print... |
+| `app + q` | Quit app window |
+| `app + shift + q` | Quit all app windows |
+| `app + alt + q` | Quit other app windows |
+| `app + s` | Save |
+| `app + shift + s` | Save as... |
+| `app + alt + s` | Toggle current tab as pinned |
+| `app + t` | Open new tab |
+| `app + shift + t` | Re-open last-closed tab |
+| `app + alt + t` | Open new window |
+| `app + v` | Paste clipboard |
+| `app + shift + v` | Paste clipboard... |
+| `app + alt + v` | Paste clipboard without formatting |
+| `app + z` | Undo |
+| `app + shift + z` | Redo |
+| `app + f1` | Show app settings |
+| `app + alt + f1` | Show app help |
+| `app + ` |  |
+| `app + ` | Zoom in, zoom out, zoom default |
+| `app + ` |  |
+| `os + ` |  |
+| `os + ` |  |
+| `os + q` | Quit, aka lock |
+| `os + shift + q` | Quit, aka  |
+| `os + f1` | Show OS settings |
+| `os + alt + f1` | Show OS help |
+| `os + backspace` | Exit; Close App |
+| `os + ` |  |
+| `os + ` |  |
+| `os + ` | Toggle: Maximize app window |
+| `os + ` | Minimize app window |
+| `os + ` | Show calendar (includes current date and time) |
+| `os + ` |  |
+| `os + ` |  |
+| `os + ` |  |
+
+## Common basic text editor tasks
+_definitely up for changes_
+
+| Hotkey | Action |
+| ------ | ------ |
+| `app + c` | Copy selection to clipboard; Copy line to clipboard |
+| `app + d` | Duplicate selection; Duplicate line |
+| `app + j` | Join lines |
+| `app + r` | Find and replace... |
+| `app + x` | Cut selection; Cut line |
+| `app + backspace` | Remove word backwards |
+| `app + alt + backspace` | Navigate to last edit location |
+| `app + ` |  |
+
+## Common rich text editor tasks
+_definitely up for changes_
+
+| Hotkey | Action |
+| ------ | ------ |
+| `app + b` | Toggle selected text as bold; Toggle line as bold |
+| `app + i` | Toggle selected text as italic; Toggle line as italic |
+| `app + j` | Toggle paragraph justify |
+| `app + u` | Toggle selected text as underline; Toggle line as underline |
+| `app + ` |  |
+
+## Common (internet) browser tasks
+_definitely up for changes_
+
+| Hotkey | Action |
+| ------ | ------ |
+| `app + ` |  |
+| `app + h` | Show quick history |
+| `app + shift + h` | Show history in new page |
+| `app + j` (should change this bc 'join lines' and 'justify' elsewhere) | Show downloads |
+| `app + r` | Reload page |
+| `app + ` |  |
+| `app + ` |  |
+| `app + ` | Rename selected item... |
+| `app + ` |  |
+
+## Common (file/media) browser tasks
+_definitely up for changes_
+
+| Hotkey | Action |
+| ------ | ------ |
+| `app + ` | Rename selected item... |
+| `app + ` |  |
+| `app + ` |  |
+| `app + ` |  |
+
+
+## Common IDE tasks
+_definitely up for changes_
+
+| Hotkey | Action | Note |
+| ------ | ------ | ---- |
+| `f2` | Navigate to next error |  |
+| `shift + f2` | Navigate to previous error |  |
+| `f5` | Run |  |
+| `shift + f5` | Run... |  |
+| `alt + up` | Navigate to previous function | Override 'page up' because this is more common |
+| `alt + shift + up` | Move selected lines up |  |
+| `alt + shift + down` | Move selected lines down |  |
+| `app + ` |  |  |
+| `app + q` | Show documentation | Override 'quit' because it is needed less and don't want to accidentally close |
+| `app + r` | Rename... |  |
+| `app + shift + r` |  |  |
+| `app + ` |  |  |
+| `app + ` |  |  |
+| `app + ` |  |  |
+| `app + ` |  |  |
+| `app + ` |  |  |
+| `app + w` | Expand selection |  |
+| `app + shift + w` | Shrink selection |  |
+| `app + /` | Toggle line comment |  |
+| `app + shift + /` | Toggle block comment |  |
+| `app + space` | Auto-complete |  |
+| `app + shift + space` | Auto-complete... |  |
+| `app + ` |  |  |
+
+
 
 # Shortcuts
 
