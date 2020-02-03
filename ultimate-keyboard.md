@@ -34,12 +34,23 @@ For modifier keys:
 - Each `app` usually has just one `window`, but can have multiple `window`s.
 - Each `window` has zero or more `tab`s.
 
-For arrow keys:
-- Use when something needs to move, NOT when navigating forward and backwards, NOR volume, NOR brightness
-
-For tab key:
-- Change focus, either within a single page (regular `tab`), or between pages/tabs (use `app/ctrl + tab`), or between apps (use `os + tab`), or between desktops (use `os + alt + tab`)
-- Combine `shift` key to send focus the opposite way
+More:
+- In general, **modifier keys** will affect a certain component/level/category
+    - <no selection>: Common functionality for all pages/apps/windows
+    - `app`: Commands that the app defines, affecting components with an app, including copy (app + c), paste (app + v), new tab (app + t), print (app + p) etc
+    - `os`: Commands defined by the operating system within a single desktop, including affecting apps and global functionality
+    - `os + alt`: Commands that affect desktops. Ex: new desktop, change desktop, remove desktop
+- Use **arrow keys** when something needs to move, NOT when navigating forward and backwards, NOR volume, NOR brightness
+    - `<arrow>`: Move cursor, or page, depending on focus
+    - `app` + `<arrow>`: Snap tab/page in <arrow> direction
+    - `os` + `<arrow>`: Snap app/window in <arrow> direction
+    - `os` + `alt` + `<arrow>`: Move app/window to another desktop
+- Use **tab key** to change focus
+    - `tab`: Change focus between items on a single page, or indent, depending on focus
+    - `app` + `tab`: Change focus between pages/tabs of a single app
+    - `os` + `tab`: Change focus between apps of a single desktop
+    - `os` + `alt` + `tab`: Change focus between desktops
+    - Combine `shift` key to send focus the opposite way
 
 ## Changes from 'standard' layouts
 - Rather than the `[`+`{` key, have a `(`/`{`/`[`. Reason: For programming, the parenthesis is most common, then curly brace, then square bracket.
