@@ -28,13 +28,21 @@ In order to simplify the keyboard layout, the following keys will be removed:
 Try to use minimum distinct keys for all shortcuts?
 
 
-# Consistent Philosophy for modifier keys
+# Consistent (Unified) Philosophy
+For modifier keys:
 - The `operating system` has many `app`s.
 - Each `app` usually has just one `window`, but can have multiple `window`s.
 - Each `window` has zero or more `tab`s.
 
+For arrow keys:
+- Use when something needs to move, NOT when navigating forward and backwards, NOR volume, NOR brightness
+
+For tab key:
+- Change focus, either within a single page (regular `tab`), or between pages/tabs (use `app/ctrl + tab`), or between apps (use `os + tab`), or between desktops (use `os + alt + tab`)
+- Combine `shift` key to send focus the opposite way
+
 ## Changes from 'standard' layouts
-- Rather than the `[`/`{` key, have a `(`/`{`/`[`. Reason: For programming, the parenthesis is most common, then curly brace, then square bracket.
+- Rather than the `[`+`{` key, have a `(`/`{`/`[`. Reason: For programming, the parenthesis is most common, then curly brace, then square bracket.
 
 # Shortcuts
 
