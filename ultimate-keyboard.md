@@ -18,7 +18,7 @@ Features:
 
 In order to simplify the keyboard layout, the following keys will be removed:
 - 'Caps Lock'. Reason: Never needed
-- 'Insert'. Reason: Never needed
+- 'Insert'. Reason: Very rarely needed
 - 'Page Up'. Reason: Use 'alt+up' instead
 - 'Page Down'. Reason: Use 'alt+down' instead
 - 'Home'. Reason: Use 'alt+left' instead
@@ -38,11 +38,15 @@ For modifier keys:
 More:
 - In general, **modifier keys** will affect a certain component/level/category
     - <no selection>: Common functionality for all pages/apps/windows
-    - `app`: Commands that the app defines, affecting components with an app, including copy (app + c), paste (app + v), new tab (app + t), print (app + p) etc
+    - `app`: Commands that the app defines, affecting components with an app, including copy (app + c), paste (app + v), new tab (app + t), print (app + p), etc
+    - `app + alt`: Select app-window's menu
     - `os`: Commands defined by the operating system within a single desktop, including affecting apps and global functionality
     - `os + alt`: Commands that affect desktops. Ex: new desktop, change desktop, remove desktop
+    - `function`: Access a layer of less-used keys on a keyboard, and safe for users to create their own shortcuts/macros
+        - Perhaps, also used to acces numpad on 60% keyboards
 - Use **arrow keys** when something needs to move, NOT when navigating forward and backwards, NOR volume, NOR brightness
     - `<arrow>`: Move cursor, or page, depending on focus
+    - `alt` + `<arrow>`: Move cursor either page-up, page-down, home, end
     - `app` + `<arrow>`: Snap tab/page in <arrow> direction
     - `os` + `<arrow>`: Snap app/window in <arrow> direction
     - `os` + `alt` + `<arrow>`: Move app/window to another desktop
