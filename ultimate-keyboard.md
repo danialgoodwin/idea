@@ -113,7 +113,7 @@ _definitely up for changes_
 | `os + ` |  |
 | `os + ` | Toggle: Maximize app window |
 | `os + ` | Minimize app window |
-| `os + ` | Show calendar (includes current date and time) |
+| `os + ` | Show calendar (includes current date, time, weather) |
 | `os + ` |  |
 | `os + ` |  |
 | `os + ` |  |
@@ -198,6 +198,14 @@ _definitely up for changes_
 | `app + shift + space` | Auto-complete... |  |
 | `app + ` |  |  |
 
+## Common 'modal' apps
+Some apps have their main interaction to be non-text-input. In those cases, it would be benefitial and ergonomic to re-purpose the letters for different functionality, until text-input is needed again. For apps that commonly use mouse input, then it will be preferred to re-purpose letters on the left side of the keyboard.
+
+Good examples: Gmail, vim, Vimium (aka, vim for chrome), games (have to hit <enter> in order to use letters in chat), media editors (Photoshop, Gimp, Audacity, Movie Maker)
+
+Okay examples:
+- Operating systems: By default, pressing letters does nothing. Only when focus is in a text-input box, then letters are sent to the app.
+- Browsers: Same reason as above.
 
 
 # Shortcuts
