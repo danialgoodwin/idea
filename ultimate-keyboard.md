@@ -30,7 +30,8 @@ Try to use minimum distinct keys for all shortcuts?
 
 # Consistent (Unified) Philosophy
 For modifier keys:
-- The `operating system` has many `app`s.
+- The `operating system` has one or more `desktop`s.
+- Each `desktop` has many `app`s.
 - Each `app` usually has just one `window`, but can have multiple `window`s.
 - Each `window` has zero or more `tab`s.
 
