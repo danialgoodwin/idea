@@ -12,13 +12,13 @@ General-purpose technologies:
 - ...
 
 ## Example Ideas
-- Distributed, encrypted, self-hosting for everbody. Users decide how much space to host for others and get that much space in return, divided by how many times they want their data duplicated.
+- Distributed, encrypted, self-hosting for everybody. Users decide how much space to host for others and get that much space in return.
     - Distributed data will never be entirely on one remote computer. Reason: More security.
-    - Meh. Maybe have an option for distributing data more local or further away. Reason: Resiliency from natural disasters affecting a large area.
+    - Data is distributed nearby and further away. Reason: Resiliency from natural disasters affecting a large area.
     - Artificially limit bandwidth. Reason: Be kind to users' computers, and don't take up their entire internet bandwidth.
         - This product is primarily meant for data redundancy, aka backup(s).
     - Pricing tiers:
-        - Basic: Exact match of shared resources (amount of memory and bandwith)
+        - Basic: Exact match of shared resources (amount of memory and bandwidth)
         - Pro User: Request more redundancy (and bandwidth). Cost: $0.50 per 10 GB per month, with 70% distributed to Pro Suppliers, 10% to environment, 10% to social causes as voted by users, 10% split between core developers. No long term contracts.
             - It is recommended to have your data duplicated at least 3 times in order to ensure good recoverability.
         - Pro Supplier: Provide extra storage (and bandwidth) for others. In return, you get $0.35 per 10 GB per month. With a spare 1 TB shared, that's equivalent to $35/month, aka $420/year, which is more than enough to buy four 4TB HDD (and some socks) each year (as of 2020, caveat: full payment if all storage is used by others).
@@ -37,13 +37,3 @@ Get 'outside the box' thinking from somebody outside your box. No BS.
 Details:
 - Current rate: $1,000 USD per month, paid on the 1st, month-to-month, no long term contract
 - You get: 4 hours of dedicated brainstorming and insights for your product (and product space) each month
-
-=========================
-=========================
-
-1. Good-looking app in terminal window by manipulating pixels?
-    - Would need to get size of terminal screen space. Likely should create a framework for it that understands size changes.
-    - Reason? A tiny bit of portability with Bash, but may be easier to just include Bash, or even easier to include Node/Electron/Chromium/Java/Python.
-    
-
-
