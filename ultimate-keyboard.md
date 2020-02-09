@@ -64,7 +64,12 @@ More:
     - `os` + `tab`: Change focus between apps of a single desktop
     - `os` + `alt` + `tab`: Change focus between desktops
     - Combine `shift` key to send focus the opposite way
-
+- Use **modifier + number** to select
+    - `app + <1-8>`: Select tab 1-8 (in currently focused window)
+    - `app + 9`: Select the last tab (in currently focused window)
+    - `os + <1-8>`: Select app 1-8 (in app bar)
+    - `os + 9`: Select the last app (in app bar)
+ 
 ## Common tasks
 _definitely up for changes_
 
