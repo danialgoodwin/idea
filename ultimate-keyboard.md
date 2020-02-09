@@ -1,3 +1,5 @@
+_TODO: Review https://support.google.com/chrome/answer/157179?hl=en_
+
 # Ultimate Keyboard
 
 Requirements:
