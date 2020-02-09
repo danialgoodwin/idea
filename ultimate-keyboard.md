@@ -41,7 +41,7 @@ For modifier keys:
 
 More:
 - In general, **modifier keys** will affect a certain component/level/category
-    - <no selection>: Common functionality for all pages/apps/windows
+    - `<no selection>`: Common functionality for all pages/apps/windows
     - `app`: Commands that the app defines, affecting components with an app, including copy (app + c), paste (app + v), new tab (app + t), print (app + p), etc
     - `app + alt`: Select app-window's menu
     - `os`: Commands defined by the operating system within a single desktop, including affecting apps and global functionality
@@ -49,11 +49,12 @@ More:
     - `function`: Access a layer of less-used keys on a keyboard, and safe for users to create their own shortcuts/macros
         - Perhaps, also used to acces numpad on 60% keyboards
 - Use **arrow keys** when something needs to move, NOT when navigating forward and backwards, NOR volume, NOR brightness
-    - `<arrow>`: Move cursor, or page, depending on focus
-    - `alt` + `<arrow>`: Move cursor either page-up, page-down, home, end
-    - `alt` + `shift` + `<arrow>: Auto-scroll in <arrow direction>
-    - `app` + `<arrow>`: Snap tab/page in <arrow> direction
-    - `os` + `<arrow>`: Snap app/window in <arrow> direction
+    - `<arrow>`: Move cursor (or page) by one 'increment' (add `shift` to highlight)
+        - `app` + `<arrow>`: Move cursor (or page) by one 'word' left/right and one 'paragraph' up/down (add `shift` to highlight)
+        - `alt` + `<arrow>`: Move cursor (or page) by one 'page' up/down, left -> home, right -> end (add `shift` to highlight)
+    - `os` + `<arrow>`: Snap app/window in `<arrow>` direction
+    - `os` + `app` + `<arrow>`: Snap tab/page in `<arrow>` direction
+    - `os` + `app` + `shift` + `<arrow>`: Auto-scroll in `<arrow>` direction
     - `os` + `alt` + `<arrow>`: Move app/window to another desktop
 - Use **tab key** to change focus
     - `tab`: Change focus between items on a single page, or indent, depending on focus
