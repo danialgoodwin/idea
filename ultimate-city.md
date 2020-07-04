@@ -15,9 +15,11 @@
 
 ### More ideas
 - [Where Manhattan’s grid plan came from](https://www.youtube.com/watch?v=QaIOfgz8FVY)
-
-
-
+- [Strong Towns](https://www.strongtowns.org/stmedia)
+  - [If We’re Not Going to Maintain What We Have, Then Why Bother Building Anything New?](https://www.strongtowns.org/journal/2019/12/12/if-were-not-going-to-maintain-what-we-have-then-why-bother-building-anything-new)
+  
+  
+  
 ## Maybe
 - Start with a light-railway line, with each station about 1(maybe?) mile away from each other so people only have to walk .5 mile to reach things in between. Perhaps a circular line? (of diameter of 2 miles with 4 stations?) How many people can fix in a city like this? Maybe a figure 8 instead so that wheels on the outside don't always get the extra wear-and-tear, though the 8-shape is less efficient than an long oval/stadium shape
     - Next to the train tracks can be a road for cars (on the outside) and road for bikes/scooters (on the inside). Also, have sporatic trees. The only cars allowed inside would be emergency vehicles and delivery trucks for businesses
